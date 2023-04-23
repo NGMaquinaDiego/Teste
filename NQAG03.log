@@ -1,0 +1,11 @@
+<ioexp;
+EXCHANGE IDENTITY DATA
+
+IDENTITY
+BGNA02 V14000600
+
+END
+
+
+@t 10
+## Transmission delayed 10 seconds
