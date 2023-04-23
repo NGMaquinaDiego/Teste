@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230423   181434   NO             SUN      2
+230423   181501   NO             SUN      2
 
 
 REFERENCE CLOCKS
@@ -16,16 +16,11 @@ URC3            NOT CONNECTED
 
 END
 
-<rxmsp:mo=rxotrx-21-0&-1&-4&-8&-9&rxotx-21-0&-1&-4&-8&-9;
+<rxmsp:mo=rxotx-21-0&-1&-4&-8&-9;
 RADIO X-CEIVER ADMINISTRATION
 MANAGED OBJECT STATUS
 
 MO               STATE  BLSTATE    BLO   BLA   LMO    BTS   CONF
-RXOTRX-21-0      OPER              0000  0000         STA
-RXOTRX-21-1      OPER              0000  0000         STA
-RXOTRX-21-4      NOOP   BLO        0440  00BA         RES
-RXOTRX-21-8      OPER              0000  0000         STA
-RXOTRX-21-9      OPER              0000  0000         STA
 RXOTX-21-0       NOOP   BLO        0002  0014  0140   DIS   UNCONF
 RXOTX-21-1       NOOP   BLO        0002  0014  0140   DIS   UNCONF
 RXOTX-21-4       NOOP   BLO        0012  009E  0140   RES   UNCONF
