@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   103610   NO             MON      0
+230424   103701   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -15,6 +15,10 @@ URC2            NOT CONNECTED
 URC3            NOT CONNECTED
 
 END
+
+<
+TIME OUT
+
 
 <rxmsp:mo=rxotx-21-0&-1&-4&-8&-9;          
 RADIO X-CEIVER ADMINISTRATION
