@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   091559   NO             MON      0
+230424   091649   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -95,6 +95,24 @@ EXTERNAL FAULT CODES CLASS 2B
 
 REPLACEMENT UNITS
 15
+
+MO                   BTSSWVER          
+RXOTRX-21-4          ERA-G05-R32-V01
+
+RU  RUREVISION                           RUSERIALNO
+ 0  KRC 131 1003/2        R3F            TT2000CYU8   
+
+    RUPOSITION                           RULOGICALID
+    C:0 R:R SH: 7 SL: 28                 TRX  DTRU                     4
+
+STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
+OPER            00009                                   
+
+FAULT CODES CLASS 2A
+ 11  25
+
+REPLACEMENT UNITS
+ 0
 
 END
 
