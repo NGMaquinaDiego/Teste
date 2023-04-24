@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   095734   NO             MON      0
+230424   095824   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -37,12 +37,7 @@ MO                SCGR  SC         RSITE           ALARM SITUATION
 RXOTG-21                           NQAG03
 RXOCF-21                           NQAG03          OPERATOR CONDITION
 RXOTRX-21-0                        NQAG03          BTS INT UNAFFECTED
-RXOTRX-21-4                        NQAG03          LOCAL MODE
-RXOTRX-21-8                        NQAG03          LOCAL MODE
-RXOTRX-21-9                        NQAG03          LOCAL MODE
 RXOTX-21-0                         NQAG03          BTS INT AFFECTED
-RXOTX-21-4                         NQAG03          BTS INT AFFECTED
-RXOTX-21-8                         NQAG03          BTS INT AFFECTED
 
 END
 
@@ -130,6 +125,24 @@ NOOP   BLO      00000
 
 FAULT CODES CLASS 1B
 27
+
+MO                   BTSSWVER          
+RXOTRX-21-8          ERA-G05-R32-V01
+
+RU  RUREVISION                           RUSERIALNO
+ 0  KRC 131 1003/2        R3F            TT2000CYQY   
+
+    RUPOSITION                           RULOGICALID
+    C:0 R:R SH: 7 SL: 56                 TRX  DTRU                     8
+
+STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
+OPER            00014                                   
+
+FAULT CODES CLASS 2A
+ 11  25
+
+REPLACEMENT UNITS
+ 0
 
 END
 
