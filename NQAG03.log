@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   095324   NO             MON      0
+230424   095413   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -37,8 +37,9 @@ MO                SCGR  SC         RSITE           ALARM SITUATION
 RXOTG-21                           NQAG03
 RXOCF-21                           NQAG03          OPERATOR CONDITION
 RXOTRX-21-0                        NQAG03          BTS INT UNAFFECTED
-RXOTRX-21-4                        NQAG03          BTS INT UNAFFECTED
-RXOTRX-21-8                        NQAG03          BTS INT UNAFFECTED
+RXOTRX-21-4                        NQAG03          LOCAL MODE
+RXOTRX-21-8                        NQAG03          LOCAL MODE
+RXOTRX-21-9                        NQAG03          LOCAL MODE
 RXOTX-21-0                         NQAG03          BTS INT AFFECTED
 RXOTX-21-4                         NQAG03          BTS INT AFFECTED
 RXOTX-21-8                         NQAG03          BTS INT AFFECTED
@@ -271,14 +272,14 @@ RXOTS-21-8-7     NOOP   BLO        0010  008A  0D40   RES   UNCONF
 RXOTX-21-8       NOOP   BLO        0012  009E  0140   RES   UNCONF
 RXOTRX-21-9      NOOP   BLO        0440  00BA         RES
 RXORX-21-9       NOOP   BLO        0010  008A  0140   RES   UNCONF
-RXOTS-21-9-0     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-1     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-2     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-3     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-4     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-5     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-6     NOOP   BLO        0010  008A  0540   RES   UNCONF
-RXOTS-21-9-7     NOOP   BLO        0010  008A  0540   RES   UNCONF
+RXOTS-21-9-0     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-1     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-2     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-3     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-4     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-5     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-6     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-9-7     NOOP   BLO        0010  008A  0D40   RES   UNCONF
 RXOTX-21-9       NOOP   BLO        0010  008A  0140   RES   UNCONF
 RXOTF-21         OPER              0000  0000  0000   ENA   ENA
 RXODP-21-0       OPER              0000  0000         ENA   ENA
