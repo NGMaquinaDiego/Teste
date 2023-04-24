@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   093100   NO             MON      0
+230424   093150   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -161,21 +161,6 @@ NOOP   BLO      00000
 
 FAULT CODES CLASS 1B
 12  27
-
-MO                   BTSSWVER          
-RXOTRX-21-9          ERA-G05-R32-V01
-
-RU  RUREVISION                           RUSERIALNO
- 0  KRC 131 1003/2        R3F            TT2000CYQY   
-
-    RUPOSITION                           RULOGICALID
-    C:0 R:R SH: 7 SL: 56                 TRX  DTRU                     9
-
-STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
-OPER            00006                                   
-
-FAULT CODES CLASS 2A
- 25
 
 END
 
