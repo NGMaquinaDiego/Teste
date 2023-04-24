@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   093240   NO             MON      0
+230424   093331   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -38,7 +38,6 @@ RXOTG-21                           NQAG03
 RXOCF-21                           NQAG03          OPERATOR CONDITION
 RXOTRX-21-4                        NQAG03          BTS INT UNAFFECTED
 RXOTRX-21-8                        NQAG03          BTS INT UNAFFECTED
-RXOTRX-21-9                        NQAG03          BTS INT UNAFFECTED
 RXOTX-21-4                         NQAG03          BTS INT AFFECTED
 RXOTX-21-8                         NQAG03          BTS INT AFFECTED
 
