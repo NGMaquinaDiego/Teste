@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230424   140034   NO             MON      0
+230424   140126   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -173,10 +173,7 @@ STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
 OPER            00014                                   
 
 FAULT CODES CLASS 2A
- 11  25
-
-REPLACEMENT UNITS
- 0
+ 25
 
 MO                   BTSSWVER          
 RXOTX-21-8           ERA-G05-R32-V01
@@ -191,7 +188,7 @@ STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
 NOOP   BLO      00000                                   
 
 FAULT CODES CLASS 1B
-12  27
+27
 
 END
 
