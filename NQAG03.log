@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230426   160013   NO             WED      0
+230426   160145   NO             WED      0
 
 
 REFERENCE CLOCKS
@@ -23,7 +23,7 @@ MANAGED OBJECT STATUS
 MO               STATE  BLSTATE    BLO   BLA   LMO    BTS   CONF
 RXOTX-21-0       OPER              0000  0000  0000   ENA   ENA
 RXOTX-21-1       OPER              0000  0000  0000   ENA   ENA
-RXOTX-21-4       NOOP   BLO        0012  009E  0140   RES   UNCONF
+RXOTX-21-4       OPER              0000  0000  0000   ENA   ENA
 RXOTX-21-8       NOOP   BLO        0012  009E  0140   RES   UNCONF
 RXOTX-21-9       NOOP   BLO        0012  009E  0140   RES   UNCONF
 
@@ -99,36 +99,6 @@ EXTERNAL FAULT CODES CLASS 2B
 
 REPLACEMENT UNITS
 40
-
-MO                   BTSSWVER          
-RXOTRX-21-4          ERA-G05-R32-V01
-
-RU  RUREVISION                           RUSERIALNO
- 0  KRC 131 1003/2        R3F            TT2000CYU8   
-
-    RUPOSITION                           RULOGICALID
-    C:0 R:R SH: 7 SL: 28                 TRX  DTRU                     4
-
-STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
-NOOP   BLO      00002                                   
-
-EXTERNAL FAULT CODES CLASS 1B
- 4
-
-MO                   BTSSWVER          
-RXOTX-21-4           ERA-G05-R32-V01
-
-RU  RUREVISION                           RUSERIALNO
- 0
-
-    RUPOSITION                           RULOGICALID
-    
-
-STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
-NOOP   BLO      00000                                   
-
-FAULT CODES CLASS 1B
- 4
 
 MO                   BTSSWVER          
 RXOTRX-21-8          ERA-G05-R32-V01
@@ -232,17 +202,17 @@ RXOTS-21-1-5     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-1-6     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-1-7     OPER              0000  0000  0000   ENA   ENA
 RXOTX-21-1       OPER              0000  0000  0000   ENA   ENA
-RXOTRX-21-4      NOOP   BLO        0440  00BA         RES
-RXORX-21-4       NOOP   BLO        0010  008A  0140   RES   UNCONF
-RXOTS-21-4-0     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-1     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-2     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-3     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-4     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-5     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-6     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTS-21-4-7     NOOP   BLO        0010  008A  0D40   RES   UNCONF
-RXOTX-21-4       NOOP   BLO        0012  009E  0140   RES   UNCONF
+RXOTRX-21-4      OPER              0000  0000         STA
+RXORX-21-4       OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-0     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-1     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-2     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-3     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-4     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-5     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-6     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-7     OPER              0000  0000  0000   ENA   ENA
+RXOTX-21-4       OPER              0000  0000  0000   ENA   ENA
 RXOTRX-21-8      NOOP   BLO        0440  00BA         RES
 RXORX-21-8       NOOP   BLO        0050  008A  0140   RES   UNCONF
 RXOTS-21-8-0     NOOP   BLO        0010  008A  0D40   RES   UNCONF
