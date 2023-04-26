@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230426   160145   NO             WED      0
+230426   160317   NO             WED      0
 
 
 REFERENCE CLOCKS
@@ -36,10 +36,8 @@ MANAGED OBJECT ALARM SITUATIONS
 MO                SCGR  SC         RSITE           ALARM SITUATION
 RXOTG-21                           NQAG03
 RXOCF-21                           NQAG03          OPERATOR CONDITION
-RXOTRX-21-4                        NQAG03          LOCAL MODE
 RXOTRX-21-8                        NQAG03          LOCAL MODE
 RXOTRX-21-9                        NQAG03          LOCAL MODE
-RXOTX-21-4                         NQAG03          BTS INT AFFECTED
 RXOTX-21-8                         NQAG03          BTS INT AFFECTED
 RXOTX-21-9                         NQAG03          BTS INT AFFECTED
 
