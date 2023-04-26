@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230426   121438   NO             WED      0
+230426   121610   NO             WED      0
 
 
 REFERENCE CLOCKS
@@ -23,7 +23,7 @@ MANAGED OBJECT STATUS
 MO               STATE  BLSTATE    BLO   BLA   LMO    BTS   CONF
 RXOTX-21-0       NOOP   BLO        0012  0016  0140   DIS   UNCONF
 RXOTX-21-1       OPER              0000  0000  0000   ENA   ENA
-RXOTX-21-4       NOOP   BLO        0002  0014  0140   DIS   UNCONF
+RXOTX-21-4       NOOP   BLO        0012  0096  0140   RES   UNCONF
 RXOTX-21-8       NOOP   BLO        0002  0014  0140   DIS   UNCONF
 RXOTX-21-9       NOOP   BLO        0002  0014  0140   DIS   UNCONF
 
@@ -138,6 +138,21 @@ FAULT CODES CLASS 1B
 12  27
 
 MO                   BTSSWVER          
+RXOTRX-21-4          ERA-G05-R32-V01
+
+RU  RUREVISION                           RUSERIALNO
+ 0  KRC 131 1003/2        R3F            TT2000CYU8   
+
+    RUPOSITION                           RULOGICALID
+    C:0 R:R SH: 7 SL: 28                 TRX  DTRU                     4
+
+STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
+NOOP   BLO      00002                                   
+
+EXTERNAL FAULT CODES CLASS 1B
+ 4
+
+MO                   BTSSWVER          
 RXOTX-21-4           ERA-G05-R32-V01
 
 RU  RUREVISION                           RUSERIALNO
@@ -248,17 +263,17 @@ RXOTS-21-1-5     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-1-6     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-1-7     OPER              0000  0000  0000   ENA   ENA
 RXOTX-21-1       OPER              0000  0000  0000   ENA   ENA
-RXOTRX-21-4      OPER              0000  0000         STA
-RXORX-21-4       OPER              0000  0000  0000   ENA   ENA
-RXOTS-21-4-0     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-1     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-2     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-3     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-4     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-5     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-6     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-7     OPER              0000  0000  0840   DIS   UNCONF
-RXOTX-21-4       NOOP   BLO        0002  0014  0140   DIS   UNCONF
+RXOTRX-21-4      NOOP   BLO        0440  00B2         RES
+RXORX-21-4       NOOP   BLO        0010  0082  0140   RES   UNCONF
+RXOTS-21-4-0     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-1     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-2     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-3     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-4     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-5     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-6     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTS-21-4-7     NOOP   BLO        0010  0082  0D40   RES   UNCONF
+RXOTX-21-4       NOOP   BLO        0012  0096  0140   RES   UNCONF
 RXOTRX-21-8      OPER              0000  0000         STA
 RXORX-21-8       OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-8-0     OPER              0000  0000  0840   DIS   UNCONF
