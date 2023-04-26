@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230426   115748   NO             WED      0
+230426   115920   NO             WED      0
 
 
 REFERENCE CLOCKS
@@ -23,7 +23,7 @@ MANAGED OBJECT STATUS
 MO               STATE  BLSTATE    BLO   BLA   LMO    BTS   CONF
 RXOTX-21-0       OPER              0000  0000  0000   ENA   ENA
 RXOTX-21-1       OPER              0000  0000  0000   ENA   ENA
-RXOTX-21-4       NOOP   BLO        0002  0014  0140   DIS   UNCONF
+RXOTX-21-4       NOOP   BLO        0012  009E  0140   RES   UNCONF
 RXOTX-21-8       NOOP   BLO        0002  0014  0140   DIS   UNCONF
 RXOTX-21-9       OPER              0000  0000  0000   ENA   ENA
 
@@ -36,6 +36,7 @@ MANAGED OBJECT ALARM SITUATIONS
 MO                SCGR  SC         RSITE           ALARM SITUATION
 RXOTG-21                           NQAG03
 RXOCF-21                           NQAG03          OPERATOR CONDITION
+RXOTRX-21-0                        NQAG03          BTS INT UNAFFECTED
 RXOTRX-21-8                        NQAG03          BTS INT UNAFFECTED
 RXOTRX-21-9                        NQAG03          BTS INT UNAFFECTED
 RXOTX-21-4                         NQAG03          BTS INT AFFECTED
@@ -117,6 +118,21 @@ REPLACEMENT UNITS
  0
 
 MO                   BTSSWVER          
+RXOTRX-21-4          ERA-G05-R32-V01
+
+RU  RUREVISION                           RUSERIALNO
+ 0  KRC 131 1003/2        R3F            TT2000CYU8   
+
+    RUPOSITION                           RULOGICALID
+    C:0 R:R SH: 7 SL: 28                 TRX  DTRU                     4
+
+STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
+NOOP   BLO      00000                                   
+
+EXTERNAL FAULT CODES CLASS 1B
+ 4
+
+MO                   BTSSWVER          
 RXOTX-21-4           ERA-G05-R32-V01
 
 RU  RUREVISION                           RUSERIALNO
@@ -177,7 +193,10 @@ STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
 OPER            00000                                   
 
 FAULT CODES CLASS 2A
- 25
+ 11  25
+
+REPLACEMENT UNITS
+ 0
 
 END
 
@@ -212,17 +231,17 @@ RXOTS-21-1-5     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-1-6     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-1-7     OPER              0000  0000  0000   ENA   ENA
 RXOTX-21-1       OPER              0000  0000  0000   ENA   ENA
-RXOTRX-21-4      OPER              0000  0000         STA
-RXORX-21-4       OPER              0000  0000  0000   ENA   ENA
-RXOTS-21-4-0     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-1     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-2     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-3     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-4     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-5     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-6     OPER              0000  0000  0840   DIS   UNCONF
-RXOTS-21-4-7     OPER              0000  0000  0840   DIS   UNCONF
-RXOTX-21-4       NOOP   BLO        0002  0014  0140   DIS   UNCONF
+RXOTRX-21-4      NOOP   BLO        0440  00BA         RES
+RXORX-21-4       NOOP   BLO        0010  008A  0140   RES   UNCONF
+RXOTS-21-4-0     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-1     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-2     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-3     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-4     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-5     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-6     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTS-21-4-7     NOOP   BLO        0010  008A  0D40   RES   UNCONF
+RXOTX-21-4       NOOP   BLO        0012  009E  0140   RES   UNCONF
 RXOTRX-21-8      OPER              0000  0000         STA
 RXORX-21-8       OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-8-0     OPER              0000  0000  0840   DIS   UNCONF
