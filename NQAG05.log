@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230430   153206   NO             SUN      2
+230430   174645   NO             SUN      2
 
 
 REFERENCE CLOCKS
@@ -182,16 +182,16 @@ RU  RUREVISION                           RUSERIALNO
     C:0 R:- SH:-- SL:---                 MCTR Radio 2219 B3            5
 
 STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
-OPER            00012                                   
+OPER            00014                                   
 
 FAULT CODES CLASS 2A
- 61
+ 70
 
 EXTERNAL FAULT CODES CLASS 2B
  9
 
 REPLACEMENT UNITS
-31
+14
 
 MO                   BTSSWVER          
 RXOMCTR-22-0         ERA-G07-R32-V01
