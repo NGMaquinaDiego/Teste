@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230430   192758   NO             SUN      2
+230430   192944   NO             SUN      2
 
 
 REFERENCE CLOCKS
@@ -94,21 +94,6 @@ EXTERNAL FAULT CODES CLASS 2B
  9
 
 MO                   BTSSWVER          
-RXOTS-21-4-2         ERA-G05-R32-V01
-
-RU  RUREVISION                           RUSERIALNO
- 0
-
-    RUPOSITION                           RULOGICALID
-    
-
-STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
-OPER            00000     60524   35466                 
-
-EXTERNAL FAULT CODES CLASS 1B
- 3
-
-MO                   BTSSWVER          
 RXOTRX-21-8          ERA-G05-R32-V01
 
 RU  RUREVISION                           RUSERIALNO
@@ -175,7 +160,7 @@ RXOTRX-21-4      OPER              0000  0000         STA
 RXORX-21-4       OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-0     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-1     OPER              0000  0000  0000   ENA   ENA
-RXOTS-21-4-2     OPER              0000  0000  2000   ENA   ENA
+RXOTS-21-4-2     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-3     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-4     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-5     OPER              0000  0000  0000   ENA   ENA
