@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230430   130228   NO             SUN      2
+230430   130416   NO             SUN      2
 
 
 REFERENCE CLOCKS
@@ -310,7 +310,7 @@ MANAGED OBJECT STATUS
 MO               STATE  BLSTATE    BLO   BLA   LMO    BTS   CONF
 RXOTG-22         OPER              0000  0000         STA
 RXOCF-22         OPER              0000  0000         STA
-RXOIS-22         OPER              0000  0000         DIS   CONF
+RXOIS-22         OPER              0000  0000         ENA   ENA
 RXOCON-22        OPER              0000  0000         DIS   CONF
 RXOTRX-22-0      NOOP   BLO        0440  000A         RES
 RXORX-22-0       NOOP   BLO        0010  000A  4140   RES   UNCONF
