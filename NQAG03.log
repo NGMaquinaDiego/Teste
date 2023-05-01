@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230501   102840   NO             MON      0
+230501   103024   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -149,7 +149,7 @@ RXOTS-21-4-3     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-4     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-5     OPER              0000  0000  0000   ENA   ENA
 RXOTS-21-4-6     OPER              0000  0000  0000   ENA   ENA
-RXOTS-21-4-7     OPER              0000  0000  0000   ENA   ENA
+RXOTS-21-4-7     OPER              0000  0000  0840   ENA   ENA
 RXOTX-21-4       OPER              0000  0000  0000   ENA   ENA
 RXOTRX-21-8      OPER              0000  0000         STA
 RXORX-21-8       OPER              0000  0000  0000   ENA   ENA
