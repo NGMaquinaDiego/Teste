@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230501   111408   NO             MON      0
+230501   111554   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -36,7 +36,6 @@ MANAGED OBJECT ALARM SITUATIONS
 MO                SCGR  SC         RSITE           ALARM SITUATION
 RXOTG-21                           NQAG03
 RXOCF-21                           NQAG03          OPERATOR CONDITION
-RXOTRX-21-8                        NQAG03          BTS INT UNAFFECTED
 
 END
 
@@ -91,21 +90,6 @@ FAULT CODES CLASS 2A
 
 EXTERNAL FAULT CODES CLASS 2B
  9
-
-MO                   BTSSWVER          
-RXOTRX-21-8          ERA-G05-R32-V01
-
-RU  RUREVISION                           RUSERIALNO
- 0  KRC 131 1003/2        R3F            TT2000CYQY   
-
-    RUPOSITION                           RULOGICALID
-    C:0 R:R SH: 7 SL: 56                 TRX  DTRU                     8
-
-STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
-OPER            00002                                   
-
-FAULT CODES CLASS 2A
- 25
 
 END
 
