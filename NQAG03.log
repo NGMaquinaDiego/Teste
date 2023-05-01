@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230501   122945   NO             MON      0
+230501   123131   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -105,10 +105,7 @@ STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
 OPER            00002                                   
 
 FAULT CODES CLASS 2A
- 11  25
-
-REPLACEMENT UNITS
- 0
+ 25
 
 END
 
