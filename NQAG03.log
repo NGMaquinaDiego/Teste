@@ -4,7 +4,7 @@ TIME
 LOCAL TIME
 
 DATE     TIME     SUMMERTIME     DAY      DCAT
-230501   114019   NO             MON      0
+230501   114204   NO             MON      0
 
 
 REFERENCE CLOCKS
@@ -90,6 +90,21 @@ FAULT CODES CLASS 2A
 
 EXTERNAL FAULT CODES CLASS 2B
  9
+
+MO                   BTSSWVER          
+RXOTRX-21-8          ERA-G05-R32-V01
+
+RU  RUREVISION                           RUSERIALNO
+ 0  KRC 131 1003/2        R3F            TT2000CYQY   
+
+    RUPOSITION                           RULOGICALID
+    C:0 R:R SH: 7 SL: 56                 TRX  DTRU                     8
+
+STATE  BLSTATE  INTERCNT  CONCNT  CONERRCNT  LASTFLT   LFREASON
+OPER            00002                                   
+
+FAULT CODES CLASS 2A
+ 25
 
 END
 
